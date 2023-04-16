@@ -1,0 +1,246 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+    padding: 7% 15%;
+  }
+
+  .colored-section
+  {
+    background-color: #ff4c68;
+    color: white;
+    /* why added color white here rather than the heading tag ? because if any time in future if i decide to  add a subtitle in the title section to i would not to have to again set the color scheme */
+      
+  }
+  .white-section
+  {
+ background-color: #fff;
+  }
+
+/* Title Section */
+
+/* basically applying to whole section title  */
+#title {
+  
+  text-align: left;
+ 
+  
+}
+
+/* container for applying a property to hole section all together */
+
+
+.heading-first      /*heading 1 h1 top*/ {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.title-button-icon {
+  margin-right: 5px;
+  /* for space between icon and text of button */
+}
+#title .container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+
+
+/* Title image */
+
+.iphone-image {
+  width: 21%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+  /*in transform rotate if you give the value of deg positive it will rotate clockwise or else anticlockwise*/
+}
+
+
+
+
+/* navigatin bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.4rem;
+}
+
+
+
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+
+
+/* FEATURES SECTION         ***************below it every things is changed*/
+
+/* div  colunm */
+#features {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #fff;
+  position: relative;
+}
+
+
+/* heading of feature */
+
+
+.feature-heading {
+  font-weight: 700;
+  font-size: 1.5rem; /*doubt */
+}
+/* subheading */
+
+
+.sub-heading {
+  color: #8f8f8f;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* icon of feature */
+
+
+.features-icon {
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+/* hover in image */
+
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+
+
+#testimonials {
+  
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+.testimonial-text {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#press {
+  background-color: #ef8172;
+ 
+  
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+  
+
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+ 
+}
+.pricing-colunm {
+  padding: 3% 2%;
+}
+.pricing-textss {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-heading {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+/* Media query for responsiveness */
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+  .iphone-image {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+  .nav-item {
+    text-align: left;
+  }
+}
+/* media query help you to make the site responsive */
+
+/* call for action section */
+
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #fff;
+  padding-left: 3%;
+  padding-right: 3%;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+/* footer */
+#footer {
+ 
+  
+  background-color: #fff;
+}
+.footer-icon {
+  padding: 20px 10px;
+}
+.footer-icon:hover {
+  color: #ff4c68;
+}
+.copyright {
+  color: #8f8f8f;
+}
